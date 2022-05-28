@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cours Complet Bootstrap 4</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+<br>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+          </li>
+          <li class="nav-item"></li>
+          <li class="nav-item"></li>
+        </ul>
+        <form class="form-inline">
+          <div style="font-size: 2rem;"><a (click)="this.auth.logout()"[routerLink]="['/login']" *ngIf="this.auth.estConnecte()">
+          <i class="bi bi-box-arrow-right" style=" color:rgb(239, 240, 248)" ></i>
+          </a>
+</div>
+
+        </form>
+      </nav>
+    </div>
+  </body>
+  </html>
